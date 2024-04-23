@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Početna",
+        "href": "index.html"
+    },
+    {
+        "id": 2,
+        "name": "Izlog",
+        "href": "izlog.html"
+    },
+    {
+        "id": 3,
+        "name": "Kontakt",
+        "href": "kontakt.html"
+    }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/aos-master/dist/aos.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Stolarija - Izlog</title>
+</head>
+<body>
+    <div class="w-100 d-flex justify-content-center bg-light navbarMenu">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Ime brenda</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto" id="printNavBar"></ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </div>
+    <main id="main" data-aos="fade-in">
+        <div class="container py-4">
+            <h1>Izlog</h1>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+              <div class="col-12 col-lg-3 d-flex flex-column">
+                <div class="form-inline">
+                    <input id="equipmentSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+                <div class="form-inline">
+                    <ul id="printCategories" class="nav d-flex flex-column"></ul>
+                </div>
+            </div>
+            <div id="printItems" class="col-12 col-lg-9 d-flex flex-wrap justify-content-around"></div>
+            </div>
+        </div>
+    </main>
+    <div id="itemShow">
+      <div id="closeWindow">X</div>
+      <div class="centeredContent">
+          <div class="fj-w-50 slikaPopUp">
+            <img src="assets/img/sto.jpg" alt="sto">
+          </div>
+          <div class="fj-w-50">
+            <h2>Ime proizvoda</h2>
+            <h3>Cena</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda cumque ducimus minima corrupti eaque nesciunt tempora earum quia quidem numquam neque nihil repellat quos, velit, iure aliquam! Dolore, dolorum dignissimos.</p>
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/aos-master/dist/aos.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

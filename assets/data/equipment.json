@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Sto 1"
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Sto 2"
+    },
+    {
+        "id": 3,
+        "categoryId": 3,
+        "name": "Polica 1"
+    },
+    {
+        "id": 4,
+        "categoryId": 1,
+        "name": "Sto 3"
+        
+    },
+    {
+        "id": 5,
+        "categoryId": 2,
+        "name": "Stolica 1"
+    },
+    {
+        "id": 6,
+        "categoryId": 3,
+        "name": "Polica 2"
+    }
+]
