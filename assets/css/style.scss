@@ -97,3 +97,14 @@ body{
         }
     }
 }
+
+@media screen and (max-width: 770px) {
+    #itemShow{
+        .centeredContent{
+            width: 90%;
+        }
+    }
+    .fj-w-50{
+        width: 100%;
+    }
+}

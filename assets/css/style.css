@@ -101,4 +101,13 @@ body #itemShow .centeredContent {
 }
 body #itemShow .centeredContent .slikaPopUp img {
   width: 100%;
+}
+
+@media screen and (max-width: 770px) {
+  #itemShow .centeredContent {
+    width: 90%;
+  }
+  .fj-w-50 {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
