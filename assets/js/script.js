@@ -7,8 +7,8 @@ window.onload = function(){
         printNav(result);
     });
     if(window.location.href.indexOf("izlog.html") != -1){
-        let divChange = document.getElementById("itemShow");
-        divChange.style.display = "none";
+        //let divChange = document.getElementById("itemShow");
+        //divChange.style.display = "none";
         ajaxCallBack("assets/data/categories.json", function(result){
             printCategories(result);
             printItemsCallBack();
@@ -77,12 +77,19 @@ function printItems(data){
     }
     $("#printItems").html(html);
     $(".shoWindow").on('click', function(){
-        document.getElementById("itemShow").style.display = "flex";
+        $("#itemShow").css('display', 'flex');
+        $("#itemShow").animate({
+            opacity: 1
+        },500);
+        // $("#itemShow").css('opacity', '100%');
         document.getElementsByTagName("body")[0].style.overflow = "hidden";
     })
     $("#closeWindow").on("click", function(){
-        console.log("zatvori");
-        document.getElementById("itemShow").style.display = "none";
+        $("#itemShow").animate({
+            opacity: 0
+        },500, function(){
+            $("#itemShow").css('display', 'none');
+        });
         document.getElementsByTagName("body")[0].style.overflow = "visible";
     });
 }

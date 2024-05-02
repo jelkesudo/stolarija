@@ -61,21 +61,28 @@ body{
         }
     }
     #itemShow{
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
-        background-color: #ededef;
+        background-color: rgba(237, 237, 239, 0.5);
+        backdrop-filter: blur(30px);
         width: 100%;
         height: 100%;
+        opacity: 0%;
         //height: 100vh;
         z-index: 9;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         #closeWindow{
             position: absolute;
             top: 20px;
             right: 20px;
+            cursor: pointer;
+            transition: 0.5s;
+            &:hover{
+                color: #925905;
+            }
         }
         .centeredContent{
             width: 60%;
