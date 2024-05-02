@@ -104,6 +104,18 @@ body #itemShow .centeredContent .slikaPopUp img {
 }
 
 @media screen and (max-width: 770px) {
+  #itemShow {
+    text-align: center;
+  }
+  #itemShow h2 {
+    padding: 10px 0px 5px 0px;
+  }
+  #itemShow h3 {
+    padding: 5px 0px 10px 0px;
+  }
+  #itemShow p {
+    text-align: justify;
+  }
   #itemShow .centeredContent {
     width: 90%;
   }
